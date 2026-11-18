@@ -4,7 +4,7 @@ const { createProxyMiddleware } = require("http-proxy-middleware");
 const app = express();
 
 app.use("/", createProxyMiddleware({
-  target: "https://www.youtube.com",
+  target: "https://kissanime.com.cv",
   changeOrigin: true,
   ws: true,
   xfwd: true,
